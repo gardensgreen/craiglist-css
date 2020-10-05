@@ -123,12 +123,17 @@ h4.ban::before {
     border: 1px solid;
 }
 
+.cal tr:nth-child(2n) {
+    background-color: lavender;
+}
+
 .cal td {
     border: 1px solid #333;
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
     cursor: not-allowed;
     padding: 1px;
+    background-color:  transparent;
 }
 
 .cal a {
@@ -137,6 +142,7 @@ h4.ban::before {
     display: block;
     margin: -1px;
     padding: 1px;
+    background-color:  transparent;
 }
 
 .cal a:hover {
@@ -147,4 +153,14 @@ h4.ban::before {
 td.today a {
     background-color: #800080;
     color: #fff;
+}
+
+#query:focus {
+    padding: .25em;
+    background-color: lavender;
+}
+
+#rightbar :first-child select {
+    border-radius: 5px;
+    padding: 5px;
 }
