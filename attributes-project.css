@@ -3,31 +3,75 @@
 .homepage .leftlinks #cl_app_beta,
 .no-js,
 p.more {
-  display: none;
+    display: none;
 }
 
 #logo {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 .homepage-search .querybox {
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  border-bottom: 2px solid #464646;
-  font-size: 16px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid #464646;
+    font-size: 16px;
 }
 
 .menu.collapsible > li {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .menu.collapsible > li.expand.s ul {
-  display: block;
+    display: block;
 }
 
 .menu.collapsible > li ul {
-  display: none;
+    display: none;
 }
 
 /* Write your CSS here. */
+* {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    background-color: #f5f5f5;
+    color: #464646;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a > span:hover {
+    color: #800080;
+    font-weight: bold;
+}
+
+a:visited,
+a:visited > span {
+    color: #800080;
+}
+
+ul {
+    padding: 0;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.page-container {
+    max-width: 1200px;
+}
+
+#leftbar,
+#rightbar,
+#center {
+    float: left;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+}
