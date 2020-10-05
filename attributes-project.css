@@ -110,9 +110,41 @@ ul.clfooter > li {
 h4.ban::before {
     display: inline-block;
     background: url("https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/attributes/assets/peace-symbol-emoji.png");
-    content: '';
+    content: "";
     background-size: cover;
     width: 1em;
     height: 1em;
-    margin-right: .5em
+    margin-right: 0.5em;
+}
+
+.cal {
+    border-collapse: collapse;
+    border-radius: 100px;
+    border: 1px solid;
+}
+
+.cal td {
+    border: 1px solid #333;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: not-allowed;
+    padding: 1px;
+}
+
+.cal a {
+    color: green;
+    font-weight: bold;
+    display: block;
+    margin: -1px;
+    padding: 1px;
+}
+
+.cal a:hover {
+    background-color: rgb(117, 117, 246);
+    color: white;
+}
+
+td.today a {
+    background-color: #800080;
+    color: #fff;
 }
