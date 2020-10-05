@@ -72,6 +72,47 @@ ul > li {
     box-sizing: border-box;
 }
 
+#leftbar,
+#rightbar {
+    width: 25%;
+}
+
+#center {
+    width: 50%;
+    border: 1px solid #464646;
+    border-radius: 10px;
+}
+
+#center > div {
+    float: left;
+    width: 33%;
+}
+
+#topbar h2 {
+    text-align: center;
+}
+
 footer {
     clear: both;
+}
+
+ul.clfooter {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 10px 0;
+}
+
+ul.clfooter > li {
+    display: inline;
+    padding-right: 5px;
+}
+
+h4.ban::before {
+    display: inline-block;
+    background: url("https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/attributes/assets/peace-symbol-emoji.png");
+    content: '';
+    background-size: cover;
+    width: 1em;
+    height: 1em;
+    margin-right: .5em
 }
